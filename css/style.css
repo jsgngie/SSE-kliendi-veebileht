@@ -1,0 +1,64 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1615800098779-1be32e60cca3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2020&q=80");
+}
+
+@font-face { font-family:love;
+    src: url("./love.otf") format("truetype");}
+
+h1 {
+    font-family: love, cursive, Cambria;
+    font-size: 70px;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+.alam {
+    font-family:'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    padding: 5px;
+    padding-left: 60px;
+    font-size: 35px; 
+    position:relative; top: -50px;
+    color: black;
+
+}
+
+.gallery {
+    margin: 10px 50px;
+    padding-right: 400px;
+    position:relative; top:-50px ;
+}
+.gallery img {
+    transition: 1s;
+    padding: 15px;
+    width: 275px;
+}
+.gallery img:hover {
+    filter: grayscale(100%);
+    transform:scale(90%);
+}
+
+.kaart {
+    width: 500px;
+    float: right;
+    padding-right: 60px;
+    position: relative; top:-525px;
+    
+}
+
+.sotsiaalmeedia {
+    margin: 10px;
+    float: right;
+    padding-right: 60px;
+    position: relative; top:-110px;
+}
+
+.sotsiaalmeedia img {
+    width: 50px;
+}
+
+p {
+    font-family:'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    position: relative; left:750px; bottom: 200px;
+}
